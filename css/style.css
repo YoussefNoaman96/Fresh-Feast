@@ -232,7 +232,7 @@ nav a,
 }
 
 .shop-link:hover {
-  font-size: 17.5px;
+  letter-spacing: 2px;
 }
 
 .navbar a:hover {
@@ -386,7 +386,6 @@ nav a,
 
 .salad {
   background-image: url(../images/salad.jpg);
-
 }
 
 .cake {
@@ -405,17 +404,17 @@ nav a,
   z-index: 20;
   color: white;
   padding-top: 55px;
-  transition: 1s;
+  transition: 0.7s;
   border: none;
 }
 
 .title-food {
   margin-bottom: 23px;
-  transition: 1s;
+  transition: 0.8s;
 }
 
 .food-link {
-  color: #e25111;
+  color: #ec6e38;
   transition: 1s;
   visibility: hidden;
   text-decoration: none;
@@ -952,97 +951,35 @@ nav a,
 }
 .title-new{
   text-align: center;
-  position: relative;
-  font-size: 30px;
 }
 .item-new img:hover{
   transform: scale(1.03 , 1.03);
 }
-
-.bg-img {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: transform 0.3s ease;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-.t-new {
-  position: absolute;
-  bottom: 20px;
-  left: 0px;
-  margin: 0;
-  color: #000;
-  font-size: 20px;
-  z-index: 2;
-  transition: color 0.3s ease;
-}
-
-.header-content:hover .t-new {
-  color: rgb(255, 0, 0);
-}
-
-.header-content:hover .bg-img {
-  transform: scale(1.02);
-}
-
 .content-new{
   margin-top: 10px;
+  cursor: pointer;
 }
 .new-link{
   display: inline-block;
   color: #000;
-  transition: transform 0.5s ease;
-  margin-top: 15px;
+  transition: transform 0.3s ease;
 }
-.new-link:hover{
-  color: rgb(255, 0, 0);
-  text-decoration: none;
-  transform: scale(1.05);
+.t-new , .new-p , .new-link{
+  margin-top: 12px;
 }
 .new-p1 , .new-p{
 color: #838383;
 font-size: 14px;
 }
-
-.header-content{
-  width: 393px;
-  height: 420px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-.img-1{
-  background-image: url(../images/burger5.jpg);
-}
-.img-2{
-  background-image: url(../images/pizza6.jpg);
-}
-.img-3{
-  background-image: url(../images/Juicy\ Grilled\ Steak.jpg);
-}
-.new-p{
-    margin-top: 45px;
-}
-.new-p1{
-    margin-bottom: 15px;
-}
 .t-new{
-    position: absolute;
-    top: 105.5%;
-    margin: 15px 0px;
+  font-size: 20px;
 }
-.header-content:hover .t-new{
-    color: rgb(255, 0, 0);
+.content-new:hover{
+  color: rgb(231, 76, 60);
 }
-.t-new:hover{
-    color: #000 !important;
+.new-link:hover{
+  transform: scale(1.1) translateY(-2px);
+  color: rgb(231, 76, 60);
 }
 /* sec-7 ///////////////////////////////////////////////////////////// */
 .sec-7{
